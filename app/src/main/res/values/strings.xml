@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Claire</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="input_dialog_title_celsius">Celsius</string>
+    <string name="input_dialog_title_fahrenheit">Fahrenheit</string>
+
+    <string name="label_celsius">°C</string>
+    <string name="label_fahrenheit">°F</string>
+
+</resources>

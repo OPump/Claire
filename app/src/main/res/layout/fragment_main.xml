@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#0099CC"
+
+        android:id="@+id/left_slide"
+        >
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/celsius"
+                android:textSize="60dp"
+                android:text="0"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="-40dp"
+                android:layout_alignRight="@+id/celsius"
+                android:layout_alignTop="@+id/celsius"
+                android:layout_marginTop="-40dp"
+                android:text="@string/label_celsius"
+                android:textColor="#FFEECC"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#0099CC"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                android:id="@+id/left_color_text"
+                />
+        
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#0099FF"
+
+        android:id="@+id/right_slide"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/fahrenheit"
+            android:textSize="60dp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-40dp"
+            android:layout_alignRight="@+id/fahrenheit"
+            android:layout_alignTop="@+id/fahrenheit"
+            android:layout_marginTop="-40dp"
+            android:text="@string/label_fahrenheit"
+            android:textColor="#FFEECC"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#0099FF"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/right_color_text"
+            />
+        
+        </RelativeLayout>
+
+</LinearLayout>
