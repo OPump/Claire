@@ -5,6 +5,10 @@ Claire是一款安卓平台上的温度检测工具。在拥有温度传感器�
 ![](https://cloud.githubusercontent.com/assets/5202391/5956270/4db77272-a7e7-11e4-9ded-870662efbe6f.jpg)
 ![](https://cloud.githubusercontent.com/assets/5202391/5956271/4dba20ee-a7e7-11e4-9f77-ddf6d9fbe90e.jpg)
 
+## 下载
+
+![](https://cloud.githubusercontent.com/assets/5202391/5971599/ea382910-a883-11e4-9b95-0c71a1ea0d3b.PNG)
+
 ## License
 
 Apache 2.0. Copyright (C) 2015 南瓜工作室.
